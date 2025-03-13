@@ -1,7 +1,7 @@
 const works = {
-    "task1": { "title": "Project 1", "url": "works/task1/index.html" },
-    "task2": { "title": "Project 2", "url": "works/task2/index.html" },
-    "task3": { "title": "Project 3", "url": "works/task3/index.html" }
+    "task1": { "title": "Project 1", "url": "task1/index.html" },
+    "task2": { "title": "Project 2", "url": "task2/index.html" },
+    "task3": { "title": "Project 3", "url": "task3/index.html" }
 };
 
 function loadNavigation() {
@@ -12,12 +12,10 @@ function loadNavigation() {
         button.className = "nav_button";
         button.textContent = works[key].title;
         button.onclick = function () {
-            loadProject(works[key].url);
+            document.getElementById("content_frame").src = works[key].url;
         };
         navPanel.appendChild(button);
     }
 }
-function loadProject(projectUrl) {
-    document.getElementById("content_frame").src = projectUrl;
-}
+
 window.onload = loadNavigation;
