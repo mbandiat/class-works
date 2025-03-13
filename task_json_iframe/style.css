@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.header_div {
+    background-color: #add8e6; /* Light Blue */
+    color: black; /* Darker text for better contrast */
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav_div {
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.nav_button {
+    background-color: #87CEFA; /* Sky Blue */
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.nav_button:hover {
+    background-color: #4682B4; /* Slightly darker blue on hover */
+    color: white;
+}
+
+.content_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 90%;
+    height: 500px;
+    border: 2px solid #ccc;
+    background-color: white;
+}
