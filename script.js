@@ -1,7 +1,7 @@
 const works = {
-    "task1": { "title": "Project 1", "url": "task1/index.html" },
-    "task2": { "title": "Project 2", "url": "task2/index.html" },
-    "task3": { "title": "Project 3", "url": "task3/index.html" }
+    "task1": { "title": "Project 1", "url": "works/task1/index.html" },
+    "task2": { "title": "Project 2", "url": "works/task2/index.html" },
+    "task3": { "title": "Project 3", "url": "works/task3/index.html" }
 };
 
 function loadNavigation() {
